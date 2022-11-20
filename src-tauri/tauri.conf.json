@@ -12,7 +12,19 @@
   },
   "tauri": {
     "allowlist": {
-      "all": true
+      "shell": {
+        "all": true,
+        "scope": [
+          {
+            "name": "artisan-serve",
+            "cmd": "php",
+            "args": [
+              "artisan",
+              "serve"
+            ]
+          }
+        ]
+      }
     },
     "bundle": {
       "active": true,
