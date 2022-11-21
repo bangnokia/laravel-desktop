@@ -23,5 +23,5 @@
     <button on:click={start}>Start</button>
   </div>
   <strong>Pid: {pid}</strong>
-  <pre>{output.join("\n")}</pre>
+  <pre style="text-align: left">{output.join("\n")}</pre>
 </div>

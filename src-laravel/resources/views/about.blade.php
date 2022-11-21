@@ -1,5 +1,5 @@
 @extends('layout')
 
 @section('content')
-    welcome page
+  about
 @endsection
