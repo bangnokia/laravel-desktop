@@ -1,12 +1,16 @@
 <script>
   import Start from "$lib/Start.svelte";
+
+  const url = "http://127.0.0.1:8000";
 </script>
 
 <div id="app">
+  <div>{url}</div>
   <iframe
     title="laravel-app"
     id="app-iframe"
-    src="http://127.0.0.1:8000"
+    class="w-full h-full"
+    src={url}
     frameborder="0"
   />
   <div id="app-controllers">
